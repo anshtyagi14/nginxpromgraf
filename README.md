@@ -138,9 +138,9 @@ $ sudo vim /etc/prometheus/prometheus.yml
 Add the following content under the scrape_configs section
 
 ```yml
-  - job_name: "node_exporter"
+  - job_name: "nginx"
     static_configs:
-      - targets: ["localhost:9100"]
+      - targets: ["localhost:9113"]
 ```
 
 Create a new systemd service file for Prometheus
