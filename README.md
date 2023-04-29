@@ -79,7 +79,6 @@ Wants=network.target
 Type=simple
 User=nginx-prometheus-exporter
 Group=nginx-prometheus-exporter
-#ExecStart=/usr/local/bin/nginx-prometheus-exporter
 ExecStart=/usr/local/bin/nginx-prometheus-exporter -nginx.scrape-uri http://127.0.0.1:8080/nginx_status
 
 [Install]
