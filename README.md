@@ -1,4 +1,4 @@
-# Installing and setting up Node Exporter, Prometheus, and Grafana for system log visualization
+# Installing and setting up Nginx Prometheus Exporter, Prometheus, and Grafana for system log visualization
 
 This guide will help you install and set up Nginx Prometheus Exporter, Prometheus, and Grafana to visualize Nginx logs on Grafana.
 
@@ -211,7 +211,7 @@ $ systemctl status grafana-server
 4. Under HTTP, set the URL to http://localhost:9090.
 5. Click Save & test to save the configuration and test the connection.
 6. To import a pre-built dashboard, click on Dashboards (four squares icon) in the left sidebar, then click New, and select Import.
-7. Click on Import dashboard and enter _____ in the Import via grafana.com field, then click Load.
+7. Click on Import dashboard and enter _ _ _ _ _  in the Import via grafana.com field, then click Load.
 8. Select Prometheus as the data source from the dropdown and click Import.
 
 Now you have successfully installed Node Exporter, Prometheus, and Grafana and visualized system logs on Grafana using a prebuilt dashboard.
