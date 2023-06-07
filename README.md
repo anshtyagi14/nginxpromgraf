@@ -20,6 +20,7 @@ $ sudo apt upgrade
 ```console
 $ sudo apt install nginx
 $ sudo vim /etc/nginx/nginx.conf
+# Above line maybe wrong, check again, it should be $ sudo vim /etc/nginx/sites-available/default
 ```
 
 Add the following configuration inside the http block
