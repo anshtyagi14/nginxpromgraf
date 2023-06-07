@@ -1,4 +1,4 @@
-# Installing and setting up Nginx Prometheus Exporter, Prometheus, and Grafana for system log visualization
+# Installing and setting up Nginx Prometheus Exporter, Prometheus, and Grafana for Nginx log visualization
 
 This guide will help you install and set up Nginx Prometheus Exporter, Prometheus, and Grafana to visualize Nginx logs on Grafana.
 
